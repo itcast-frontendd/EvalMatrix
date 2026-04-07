@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PTSD - Product Test Smart Dog",
-  description: "Intelligent AI Product Evaluation Platform",
+  title: "EvalMatrix - AI 驱动的产品智能评测系统",
+  description: "面向 AI 全场景的自动化智能评测平台，支持多模型对比、Judge 自动评分、人工复核",
 };
 
 export default function RootLayout({

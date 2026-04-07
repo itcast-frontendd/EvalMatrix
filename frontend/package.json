@@ -1,6 +1,7 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "evalmatrix-frontend",
+  "version": "1.0.0",
+  "description": "EvalMatrix - AI 驱动的产品智能评测系统前端",
   "private": true,
   "scripts": {
     "dev": "next dev",

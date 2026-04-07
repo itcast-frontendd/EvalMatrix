@@ -54,7 +54,7 @@ app = FastAPI()
 @app.on_event("startup")
 async def startup_event():
     print("\n" + "=" * 60, flush=True)
-    print("[STARTUP] AI Tester Backend Started", flush=True)
+    print("[STARTUP] EvalMatrix Backend Started", flush=True)
     print("=" * 60, flush=True)
     print(f"[CONFIG] Judge Model: {JUDGE_CFG.model}", flush=True)
     print(f"[CONFIG] Judge API URL: {JUDGE_CFG.api_url}", flush=True)
@@ -1851,7 +1851,7 @@ async def call_openrouter(
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
         "HTTP-Referer": "http://localhost:3000",
-        "X-Title": "Product Test Smart Dog",
+        "X-Title": "EvalMatrix",
     }
 
     messages_content: List[Dict[str, Any]] = [{"type": "text", "text": text}]
