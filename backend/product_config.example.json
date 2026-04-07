@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "示例产品 - OpenRouter",
+    "type": "openrouter",
+    "url": "https://openrouter.ai/api/v1/chat/completions",
+    "key": "sk-or-v1-your-api-key-here",
+    "model_name": "google/gemini-2.5-flash"
+  },
+  {
+    "id": "2",
+    "name": "示例产品 - Dify Workflow",
+    "type": "dify",
+    "url": "https://your-dify-instance.com/v1/workflows/run",
+    "key": "your-dify-api-key-here"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "api_key": "your-api-key-here",
+  "model": "gemini-2.5-flash",
+  "api_url": "https://aigw.netease.com/v1/chat/completions",
+  "max_input_tokens": 200000,
+  "max_output_tokens": 64000,
+  "concurrency": 3,
+  "timeout": 300,
+  "batch_api_enabled": false,
+  "prompt_cache_enabled": false
+}
